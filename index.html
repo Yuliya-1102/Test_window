@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test_Windows</title>
+	<link rel="apple-touch-icon" sizes="57x57" href="image/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="image/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="image/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="image/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="image/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="image/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="image/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="image/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="image/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="image/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="image/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="image/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="image/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+	<script src='js/main.js' async defer></script>
+</head>
+<body>
+	<header class="header header-background">
+		<div class="container">
+			<div class="header-wrapper">
+				<div class="logo header-logo">
+					<a href="#" class="logo__link">
+						<img class="logo__img" src="image/logo3.png" alt="Logo: Wimdows">
+					</a>
+					<div class="logo__inf">
+						<h1 class="logo__title">Название <br> компании</h1>
+						<p class="logo__text">самая клевая компания</p>
+					</div>
+				</div>
+				<!-- header-logo -->
+				<div class="contact">
+					<a href="tel:+74997777777" class="phone">+7(499) 777-77-77</a>
+					<a href="tel:+74997777777" class="phone">+7(499) 777-77-77</a>
+				</div>
+			</div>
+		</div>
+		<!-- container -->
+	</header>  
+	  <!-- header -->
+
+	<div class="form-box form-box__background">
+		<div class="container">
+			<div class="form-wrapper">
+				<h2 class="form-box__title title">форма с кнопкой</h2>
+				<form id="form1" action="" class="form form-background">
+					<p class="form-title">оставь телефон и получи что-то офигенное</p>
+					<input type="tel" class="form-input" name="phone" placeholder="Введите номер" required>
+					<button class='form-button' type="submit">получить</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- form-box -->
+
+	<section class="section slider">
+		<div class="container">
+			<div class="slider-inner">
+				<h2 class="slider-title title">Тут у нас слайдер</h2>
+				<div class="slider-wrapper">
+					<!-- Slider main container -->
+					<div class="swiper slider-container">
+						<!-- Additional required wrapper -->
+						<div class="swiper-wrapper">
+							<!-- Slides -->
+							<div class="swiper-slide">
+								<img class="slide-img" src="image/slide-1.jpg" alt="Slide 1" />
+							</div>
+							<div class="swiper-slide">
+								<img class="slide-img" src="image/slide-2.jpg" alt="Slide 1" />
+							</div>
+							<div class="swiper-slide">
+								<img class="slide-img" src="image/slide-3.jpg" alt="Slide 1" />
+							</div>
+						</div>
+						
+					</div>
+					<!-- If we need pagination -->
+					<div class="swiper-pagination" id="slider-pagination"></div>  
+				</div>
+				<!-- slider-wrapper -->
+			</div>
+			<!-- slider-inner -->
+		</div>
+		<!-- container -->
+	</section>
+
+	<section class="section information">
+		<div class="container">
+			<div class="information-wrapper">
+				<h2 class="title information-title">просто текстовый блок</h2>
+				<p class="information-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam 
+					posuere quis arcu sit amet commodo. Nullam ac dui lacus. 
+					Nulla dapibus interdum interdum. Curabitur ut diam nisl. Vivamus libero lacus, viverra at dolor sit amet, 
+					commodo faucibus orci. Vivamus laoreet ornare nisi, 
+					id pharetra tellus ullamcorper volutpat. Sed lacinia placerat 
+					accumsan. Praesent pharetra ipsum scelerisque, sodales urna ut, 
+					placerat nulla. Duis nunc urna, semper non arcu ut, sagittis dapibus lorem. 
+					Nunc nec urna id velit sodales sodales. Sed porttitor quam eget mollis consequat. 
+					Curabitur aliquet nec dui eget aliquet. Nulla in risus ante.
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section class='section calc'>
+		<div class="container">
+			<div class="calc-wrapper">
+				<h2 class="title calc-title">
+					Калькулятор <br> (стоимость пользователь узнает по телефону)
+				</h2>
+				<div class="calc-change">
+					<div class="calc-change__item">
+						<img class="calc-change__img" src="image/window_1.png" alt="Окно Одностворчатое" style="width:58px; height:91px; text-align: center; margin:0 auto">
+						<p class="calc-change__title">Одностворчатое</p>
+					</div>
+					<div class="calc-change__item">
+						<img class="calc-change__img" src="image/window_2.png" alt="Окно Двухстворчатое">
+						<p class="calc-change__title">Двухстворчатое</p>
+					</div>
+					<div class="calc-change__item">
+						<img class="calc-change__img" src="image/window_3.png" alt="Окно Трехстворчатое">
+						<p class="calc-change__title">Трехстворчатое</p>
+					</div>
+					<div class="calc-change__item">
+						<img class="calc-change__img" src="image/window_balcony.png" alt="Окно Балконный блок">
+						<p class="calc-change__title">Балконный блок</p>
+					</div>
+					<div class="calc-change__item">
+						<img class="calc-change__img" src="image/balcony.png" alt="Окно Остекление балкона">
+						<p class="calc-change__title">Остекление балкона</p>
+					</div>
+				</div>
+				<!-- calc-change -->
+
+				<form id="form2" class="calc-form">
+					<div class="calc-form__wrapper">
+						<div class="calc-size">
+							<div class="calc-size__goods">
+								<span class="calc-size__width">ширина</span>
+								<span class="calc-size__img"></span>
+								<span class="calc-size__height">высота</span>
+							</div>
+							<div class="calc-size__proportions">
+								<div class="calc-size__input-wrapper">
+									<label class="calc-size__label">ширина, см</label>
+									<input class="calc-size__input calc-size__input-width" type="text" value="120">
+								</div>
+								<div class="calc-size__cross">
+									<img src="image/cross.png" alt="икс">
+								</div>
+								<div class="calc-size__input-wrapper">
+									<label class="calc-size__label">высота, см</label>
+									<input class="calc-size__input calc-size__input-height" type="text" value="120">
+								</div>
+							</div>
+						</div>
+						<!-- /.calc-size -->
+						<div class="calc-parameter">
+							<div class="calc-parameter__wrapper">
+								<div class="calc-parameter__title">Одностворчатое окно КВЕ</div>
+								<div class="calc-parameter__radio">
+									<p class="calc-parameter__subtitle radio-title">1. Критерий выбора</p>
+									<div class="radio-item">
+										<input id="radio-param-1" class="radio-input" type="radio" name="param-1" value="value-1" required>
+										<label class="radio-label" for="radio-param-1">пункт выбора 1</label>
+									</div>
+									<div class="radio-item">
+										<input id="radio-param-2" class="radio-input" type="radio" name="param-1" value="value-2" required>
+										<label class="radio-label" for="radio-param-2">пункт выбора 2</label>
+									</div>
+									<div class="radio-item">
+										<input id="radio-param-3" class="radio-input" type="radio" name="param-1" value="value-3" required>
+										<label class="radio-label" for="radio-param-3">пункт выбора 3</label>
+									</div>
+								</div>
+								<!-- calc-parameter__radio -->
+								<div class="calc-parameter__select">
+									<p class="calc-parameter__subtitle select-title">2. Выберите открывание створки</p>
+									<select class="select-items" required="">
+										<option class="select-item__title" value="">Не открывается</option>
+										<option value="1">Значение-1</option>
+										<option value="2">Значение-2</option>
+										<option value="3">Значение-3</option>
+									</select>
+								</div>
+								<!-- calc-parameter__select -->
+							</div>
+							<!-- calc-parameter__wrapper -->
+						</div>
+						<!-- calc-parameter -->
+					</div>
+					<!-- /.calc-form__wrapper -->
+
+					<div class="calc-form__send">
+						<div class="calc-form__item calc-form__user-phone">
+							<img class="calc-form__user-img" src="image/user2.png" alt="Пользователь">
+							<input id="form-phone" class="calc-form__phone-input" type="tel" value="введите номер" name="phone" required>
+						</div>
+						<button class="calc-form__item calc-form__button">Рассчитать</button>
+					</div>
+					<!-- calc-send -->
+				</form>
+				<!-- calc-form -->
+			</div>
+			<!-- calc-wrapper -->
+		</div>
+		<!-- container -->
+	</section>
+
+	<footer class="footer footer-background">
+		<div class="container">
+			<div class="footer-wrapper">
+				<p class="footer-text">просто скромный футер</p>
+			</div>
+		</div>
+	</footer>
+
+	<div class="modal">
+		<div class="modal__overflow">
+			<div class="modal-box">
+				<div class="container">
+						<div action="" class="modal-background">
+							<p class="modal-title">Сообщение отправлено</p>
+						</div>
+				</div>
+			</div>
+			<!-- form-box -->
+		</div>
+	</div>
+
+	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+</body>
+</html>
+                                                                                                   
